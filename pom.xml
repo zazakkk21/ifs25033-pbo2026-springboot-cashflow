@@ -59,13 +59,28 @@
 
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+<build>
+    <plugins>
+        <!-- Plugin untuk membangun frontend Vaadin -->
+        <plugin>
+            <groupId>com.vaadin</groupId>
+            <artifactId>vaadin-maven-plugin</artifactId>
+            <version>${vaadin.version}</version>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>build-frontend</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+
+        <!-- Plugin untuk membuat executable Spring Boot JAR -->
+        <plugin>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>
+    </plugins>
+</build>
 
 </project>

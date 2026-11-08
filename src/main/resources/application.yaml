@@ -2,5 +2,10 @@ spring:
   application:
     name: zaki_silalahi-pbo2026-springboot-cashflow
 
+vaadin:
+  launch-browser: false
+  production-mode: true
+
+
 server:
   port: ${APP_PORT:8080}
