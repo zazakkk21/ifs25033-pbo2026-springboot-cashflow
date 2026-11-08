@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: zaki_silalahi-pbo2026-springboot-cashflow
+
+server:
+  port: ${APP_PORT:8080}
