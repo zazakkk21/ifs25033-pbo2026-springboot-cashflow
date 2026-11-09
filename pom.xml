@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.delcom</groupId>
-    <artifactId>zaki_silalahi-pbo2026-springboot-cashflow</artifactId>
+    <artifactId>ifs25033-pbo2026-springboot-cashflow</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>zaki_silalahi-pbo2026-springboot-cashflow</name>
-    <description>zaki_silalahi-pbo2026-springboot-cashflow</description>
+    <name>ifs25033-pbo2026-springboot-cashflow</name>
+    <description>ifs25033-pbo2026-springboot-cashflow</description>
     <url/>
     <licenses>
         <license/>

@@ -1,6 +1,6 @@
 spring:
   application:
-    name: zaki_silalahi-pbo2026-springboot-cashflow
+    name: ifs25033-pbo2026-springboot-cashflow
 
 vaadin:
   launch-browser: false
